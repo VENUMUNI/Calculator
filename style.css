@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+}
+
+.calculator {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  height: 60px;
+  font-size: 1.5rem;
+  border-radius: 12px !important;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
